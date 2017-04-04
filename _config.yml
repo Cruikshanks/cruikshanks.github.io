@@ -1,3 +1,9 @@
 name: "Alan Cruikshanks"
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
