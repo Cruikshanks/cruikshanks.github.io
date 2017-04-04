@@ -64,6 +64,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/cruiks
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This code is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 > If you don't add a license it's neither free or open!
