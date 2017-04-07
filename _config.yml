@@ -7,3 +7,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  # Have to include this else you will break the Travis CI build. This is
+  # because Travis bundles all gems in the vendor directory on its build
+  # servers, which Jekyll will mistakenly read and explode on!
+  - vendor
