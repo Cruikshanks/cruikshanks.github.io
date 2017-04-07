@@ -1,5 +1,7 @@
 # My personal website
 
+[![Build Status](https://travis-ci.org/Cruikshanks/cruikshanks.github.io.svg?branch=master)](https://travis-ci.org/Cruikshanks/cruikshanks.github.io)
+
 I've moved to using [GitHub Pages](https://pages.github.com/) to host my personal site, backed by [Jekyll](https://jekyllrb.com/).
 
 I have only just set this up so expect numerous changes in the coming days.

@@ -1,0 +1,22 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.3.1
+
+# Travis CI clones repositories to a depth of 50 commits, which is only really
+# useful if you are performing git operations.
+# https://docs.travis-ci.com/user/customizing-the-build/#Git-Clone-Depth
+git:
+  depth: 3
+
+# enable Bundler caching
+# https://docs.travis-ci.com/user/languages/ruby#Caching-Bundler
+cache: bundler
+
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site --only-4xx --check-html # --check-favicon
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
