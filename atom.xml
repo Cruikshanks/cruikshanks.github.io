@@ -1,14 +1,13 @@
 ---
-layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Alan Cruikshanks' Blog</title>
-	<link href="http://cruikshanks.co.uk/blog/atom.xml" rel="self"/>
-	<link href="http://cruikshanks.co.uk/blog"/>
+	<title>Alan Cruikshanks</title>
+	<link href="http://cruikshanks.co.uk/atom.xml" rel="self"/>
+	<link href="http://cruikshanks.co.uk/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://cruikshanks.co.uk/blog</id>
+	<id>http://cruikshanks.co.uk/</id>
 	<author>
 		<name>Alan Cruikshanks</name>
 		<email>alan.cruikshanks@gmail.com</email>
