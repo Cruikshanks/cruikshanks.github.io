@@ -29,7 +29,7 @@ p {
 footer {
   border-top: .5em solid #d5d5d5;
   font-weight: bold;
-  font-size: .8em;
+  font-size: .9em;
 }
 footer a {
   text-decoration: none;
@@ -59,4 +59,13 @@ ul.posts li {
 ul.posts span {
   color: #ab47bc;
   font-family: Monaco, "Courier New", monospace;
+}
+div.license {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+span.license-title {
+  font-style: italic;
 }

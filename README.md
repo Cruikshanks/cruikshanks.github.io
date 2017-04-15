@@ -62,10 +62,10 @@ A link to the post will be automatically added to the index.html page.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/cruikshanks/freakin-hapi-app.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cruikshanks/cruikshanks.github.io.
 
 ## License
 
-This code is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This code is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). The content of all posts are licensed under the [Creative commons license](http://creativecommons.org/licenses/by/4.0/).
 
 > If you don't add a license it's neither free or open!
