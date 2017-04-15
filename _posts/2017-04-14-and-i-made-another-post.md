@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Jekyll and GitHub pages oh my!"
-date: 2017-03-30
-permalink: blog/jekyll-and-github-pages-oh-my/
+title: "And I made another post"
+date: 2017-04-14
+permalink: blog/and-i-made-another-post/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo ipsum, imperdiet quis elementum interdum, tristique vel turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque vel nulla ipsum. Proin sagittis imperdiet rutrum. Nunc in dictum lacus. Suspendisse pulvinar molestie magna in mollis. Donec euismod lectus vitae ante aliquam, et lobortis nisi rhoncus.
