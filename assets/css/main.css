@@ -1,43 +1,62 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  font-family: Helvetica, Arial, 'Sans-Serif';
+  margin: 60px auto;
+  width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+nav a {
+  text-decoration: none;
+  color: #790e8b;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+nav ul {
+  padding: 0px;
+  list-style: none;
 }
-a {
-    text-decoration: none;
-    color: #999;
+nav li {
+  display: inline;
+  /* Manages the spacing between the nav headings */
+  margin-right: 1em;
+  font-weight: bold;
 }
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav li.title {
+  color: #df78ef;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+  font-size: 1.313em;
+  line-height: 1.58em;
+  color: #333;
+  font-family: 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif';
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: .5em solid #d5d5d5;
+  font-weight: bold;
+  font-size: .8em;
+}
+footer a {
+  text-decoration: none;
+  color: #790e8b;
+}
+footer div.container {
+  /* This allows me to space the 3 divs in the footer to the left, right and
+     middle plus align the each on the center vertically */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
+/* POSTS */
 
+ul.posts {
+  margin: 20px auto 40px;
+  padding: 0;
+}
 ul.posts li {
-    list-style: none;
+  font-size: 1.313em;
+  line-height: 1.58em;
+  list-style: none;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+ul.posts span {
+  color: #ab47bc;
+  font-family: Monaco, "Courier New", monospace;
 }
