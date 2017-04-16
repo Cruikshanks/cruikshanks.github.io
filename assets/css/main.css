@@ -20,7 +20,7 @@ nav li {
 nav li.title {
   color: #df78ef;
 }
-p {
+p.opening {
   font-size: 1.313em;
   line-height: 1.58em;
   color: #333;
@@ -68,4 +68,10 @@ div.license {
 }
 span.license-title {
   font-style: italic;
+}
+div.post {
+  font-size: 1.313em;
+  line-height: 1.58em;
+  color: #333;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
