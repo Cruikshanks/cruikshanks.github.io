@@ -20,11 +20,11 @@ nav li {
 nav li.title {
   color: #df78ef;
 }
-p.opening {
+p, ul {
   font-size: 1.313em;
   line-height: 1.58em;
   color: #333;
-  font-family: 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif';
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
 }
 footer {
   border-top: .5em solid #d5d5d5;
@@ -51,10 +51,7 @@ ul.posts {
   padding: 0;
 }
 ul.posts li {
-  font-size: 1.313em;
-  line-height: 1.58em;
   list-style: none;
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 ul.posts span {
   color: #ab47bc;
@@ -68,10 +65,4 @@ div.license {
 }
 span.license-title {
   font-style: italic;
-}
-div.post {
-  font-size: 1.313em;
-  line-height: 1.58em;
-  color: #333;
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
