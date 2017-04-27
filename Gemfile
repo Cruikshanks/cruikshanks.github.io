@@ -8,5 +8,5 @@ group :test do
   # and htmlproofer will check the validity of all the HTML and that the links
   # all work (specifically that they don't return a 5xx error. 4xx is fine as
   # its assumed the called service is temporarily down)
-  gem "html-proofer"
+  gem 'html-proofer'
 end
