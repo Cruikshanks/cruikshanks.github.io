@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hey browser, these guys are with me"
+description: "What I learnt about about the HTTP header Content-Security-Policy"
 date: 2017-04-27
 permalink: blog/hey-browser-these-guys-are-with-me/
 ---

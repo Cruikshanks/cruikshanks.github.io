@@ -1,5 +1,6 @@
 ---
 title: "Contact me"
+description: "Details on how to get in contact with me, Alan Cruikshanks"
 permalink: contact/
 ---
 # Contact me

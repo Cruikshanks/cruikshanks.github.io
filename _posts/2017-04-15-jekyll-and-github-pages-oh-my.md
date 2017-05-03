@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jekyll and GitHub pages oh my!"
+description: "What I learnt building my site using Jekyll and GitHub pages"
 date: 2017-04-15
 permalink: blog/jekyll-and-github-pages-oh-my/
 ---
