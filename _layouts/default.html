@@ -17,6 +17,13 @@
     <meta name="theme-color" content="#ffffff">
 
     <meta name="author" content="Alan Cruikshanks" />
+
+    <!-- Rich preview support as per https://medium.com/@richardoosterhof/how-to-optimize-your-site-for-rich-previews-527ed13a6d69  -->
+    <!-- and https://richpreview.com/ -->
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:image" content="http://cruikshanks.com/assets/images/avatar_white_250x250.png" />
   </head>
   <body>
     <nav>

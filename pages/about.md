@@ -1,5 +1,6 @@
 ---
 title: "About me"
+description: "About me, Alan Cruikshanks, software engineer at the Environment Agency (UK)"
 permalink: about/
 ---
 # About me
