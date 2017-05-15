@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Who me!? (Being a dev lead)"
+description: "My key lesson from being a developer lead (other than you go to more meetings!)"
 date: 2017-05-15
 permalink: blog/who-me-being-a-dev-lead/
 ---
@@ -19,7 +20,7 @@ Before we go further let's be clear what I'm talking about. I'm referring to the
 
 It should also be differentiated from seniority. So being the most senior dev does not automatically make you this. Previously my assumption would have been the person tagged as lead dev (or dev lead, technical lead, [grand poohba](https://en.wikipedia.org/wiki/Grand_Poobah), whatever your preference is) was the most technically gifted and/or experienced developer in the room.
 
-In practise it's my experience they're the person willing to do two things
+In practice it's my experience they're the person willing to do two things
 
 - ***make decisions***
 - ***own the decisions they make***
