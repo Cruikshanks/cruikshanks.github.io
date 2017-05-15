@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Who me!? (Being a dev lead)"
-date: 2017-04-27
+date: 2017-05-15
 permalink: blog/who-me-being-a-dev-lead/
 ---
 
@@ -21,8 +21,8 @@ It should also be differentiated from seniority. So being the most senior dev do
 
 In practise it's my experience they're the person willing to do two things
 
-- make decisions
-- own the decisions they make
+- ***make decisions***
+- ***own the decisions they make***
 
 Everyone has opinions and many are happy to make them known. A lead dev however is the one setting a direction by being willing to make a decision.
 
@@ -34,7 +34,9 @@ If you are one, ideally you were selected. I can imagine that would help give yo
 
 Either way I think my two requirements apply. You must be willing to
 
-- make decisions
-- own the decisions you make
+- ***make decisions***
+- ***own the decisions you make***
 
-Clearly there's more to it than just this, and I don't claim to be a guru on the matter. It's probably an arrogance in my abilities to make decisions, or an ignorance of the consequences of them (or a bit of both) which explains why I'm happy to keep impaling myself.
+Clearly there's more to it than just this, and I don't claim to be a guru on the matter. But unless you have a hyper-performing, super self-organising team i.e. you're the exception, I believe you need someone to lead, and that leader has to be willing to do those two things.
+
+For reference, it's probably an arrogance in my abilities to make decisions, or an ignorance of the consequences of them (or a bit of both) which explains why I'm happy to keep impaling myself. But I'm hopeful if I do it enough I will finally do a half decent job of it!
