@@ -20,7 +20,7 @@ nav li {
 nav li.title {
   color: #df78ef;
 }
-p, ul {
+p, ul, ol {
   font-size: 1.313em;
   line-height: 1.58em;
   color: #333;
