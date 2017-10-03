@@ -10,17 +10,17 @@ Using [Docker](https://www.docker.com/) for local development is different to ac
 
 The aim for local development is to simplify creating the necessary environment for running your app.
 
-So for example the main docker tutorial assumes I have Python and PIP installed locally so that I can then grab the project's dependencies. The `Dockerfile` focuses on copying the project including dependencies into an image, and specifiying its startup behaviour.
+So for example the [main docker tutorial](https://docs.docker.com/get-started/) assumes I have Python and PIP installed locally so that I can then grab the project's dependencies. The `Dockerfile` focuses on copying the project including dependencies into an image, and specifiying its startup behaviour.
 
-For local development I'm more interested in starting a container that contains everything I need to build and run my app, whilst still be able to make changes to the project, and have that reflected in the running application (assuming you're building in dynamic rather than a static language).
+For local development I'm more interested in starting a container that contains everything I need to build and run my app, whilst still being able to make changes to the project, and have that reflected in the running application (assuming you're building in a dynamic rather than static language).
 
-This post details simple examples; one for [Ruby](https://www.ruby-lang.org) development, and the other for [Node.js](https://nodejs.org/).
+This post details some simple examples; one for [Ruby](https://www.ruby-lang.org) development, and the other for [Node.js](https://nodejs.org/).
 
 ## Docker for Ruby
 
 Here we demonstrate using **Docker** to provide an environment for developing a basic ruby [Sinatra](http://www.sinatrarb.com/) application.
 
-Specifically we have an application with a simple root `GET`, which returns `Hello world` as we want to demonstrate a very basic app that
+Specifically we have an app with a simple root `GET`, which returns `Hello world` as we want to demonstrate a very basic app that
 
 - has a dependency and so needs a `Gemfile`
 - has something we can interact with from the host
@@ -56,7 +56,7 @@ end
 
 ```
 
-Finally create `Dockerfile`
+Finally create the `Dockerfile`
 
 ```docker
 # Sets the base image
@@ -88,7 +88,8 @@ RUN bundle install
 # host. To do that, you must use still use the `docker run` -p flag
 EXPOSE 4567
 
-# There can only be one CMD instruction in a Dockerfile. If you list more than one CMD then only the last CMD will take effect.
+# There can only be one CMD instruction in a Dockerfile. If you list more than
+# one CMD then only the last CMD will take effect.
 
 # Purpose of a CMD is to provide defaults for an executing container. In this
 # case it sets the command and arguments to be executed when running the image
@@ -106,7 +107,7 @@ Now we've got our project, we need to create an image from it. Call
 docker build -t docker-for-ruby-dev .
 ```
 
-Don't forget the `.` at the end there! You can call it something *docker-for-ruby-dev*. This is just what I have named it for my example. If we ran this on a machine clean of other **Docker** images, running `docker images` should display something like this
+Don't forget the `.` at the end there! You can call it something other than *docker-for-ruby-dev*. This is just what I have called it for this example. If we ran it on a machine clean of other **Docker** images, running `docker images` would display something like this
 
 ```bash
 REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
@@ -136,9 +137,9 @@ Running in this way ensures we see any output from our app. Add the `-d` flag if
 
 Now we have a container we want to be able to make changes. As we have mounted the project's root folder to `/app` in the container we can open it in our preferred editor, make changes, and see them reflected in the app.
 
-To prove this using our demo project first run `curl -XGET http://localhost:4567` from the host. The response should be `Hello world`.
+To prove this first run `curl -XGET http://localhost:4567` from the host. The response should be `Hello world`.
 
-Edit `server.rb` and change line 7 to be `'Hello docker world'`. Running the same `curl` command again should result in `Hello docker world`.
+Edit `server.rb` and change line 7 to be `'Hello docker world'`. Running the same `curl` command again will result in `Hello docker world`.
 
 
 ## Docker for node.js
@@ -256,6 +257,8 @@ CMD ["/node_modules/.bin/nodemon", "server.js"]
 
 ```
 
+Or just use one [I made earlier](https://github.com/Cruikshanks/docker-for-dev/tree/master/node).
+
 ### Build (node)
 
 Next step; create the image.
@@ -274,7 +277,7 @@ node                  8.4.0               5e553613f1d8        17 hours ago      
 
 ### Run (node)
 
-With the image built, now we need a container
+With the image built, we now need a container
 
 ```bash
 docker run --rm -v "$(pwd)":/app -w /app -p 3000:3000 docker-for-node-dev
@@ -282,7 +285,7 @@ docker run --rm -v "$(pwd)":/app -w /app -p 3000:3000 docker-for-node-dev
 
 The breakdown is exactly the same as the ruby app, we've just changed the port and name we want to use.
 
-### Develop (ruby)
+### Develop (node)
 
 And development works in the same way as the ruby app. Open the code on the host in your preferred IDE, make changes, and see them reflected in the app.
 
