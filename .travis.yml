@@ -15,7 +15,11 @@ cache: bundler
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --only-4xx --check-html # --check-favicon
+  # The argument below mean
+  # --only-4xx Only reports errors for links that fall within the 4xx status code range
+  # --check-html Enables HTML validation errors from Nokogiri
+  # --assume-extension Automatically add extension (e.g. `.html`) to file paths, to allow extensionless URLs (as supported by Jekyll 3 and GitHub Pages)
+  - bundle exec htmlproofer ./_site --only-4xx --check-html --assume-extension
 
 env:
   global:
