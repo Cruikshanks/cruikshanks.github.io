@@ -3,7 +3,7 @@ layout: post
 title: "Docker for development"
 description: "Why Docker for development is different, with examples"
 date: 2017-10-03
-permalink: blog/docker-for-development
+permalink: blog/docker-for-development/
 ---
 
 Using [Docker](https://www.docker.com/) for local development is different to actually building images that you expect to be deployed and run as containers elsewhere.
@@ -298,4 +298,3 @@ Using **Docker** for development will help you and your team avoid *it works on 
 The examples here are very basic though, and its likely you will also depend on other services and tools. But pretty much every other example of using **Docker** for development immediately launches into using [Compose](https://docs.docker.com/compose/), so I wanted to provide a stripped back example. I hope it helps those like me who just wanted to get to grips with what you need to conisder just getting 'your' app up and running.
 
 Finally you will have to get used to calling **Docker** to start your apps, rather than your typical `ruby server.js` or `npm start`. And as you've seen the command can be complex so bear in mind how you can keep repeating it.
-
