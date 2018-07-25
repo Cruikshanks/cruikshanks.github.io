@@ -47,7 +47,7 @@ Local override for quke at /Users/acruikshanks/projects/defra/quke is using bran
 
 Basically the branch specified in the gem file doesn't match what is currently checked out in your gem project (and why would it!?)
 
-To resolve this run `bundle config disable_local_branch true` to silence the error message.
+To resolve this run `bundle config disable_local_branch_check true` to silence the error message.
 
 ## Strike 2!
 
