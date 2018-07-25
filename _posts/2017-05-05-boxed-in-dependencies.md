@@ -38,7 +38,7 @@ As I want to make my boxes reusable, I also tend to run `git init` and add thing
 
 ### Vagrantfile
 
-In here you'll find the bare bones for configuring and setting up your box, which by default will be a VirtualBox. The first decision you need to make is what [box](https://www.vagrantup.com/docs/boxes.html) (*the Vagrant kind!*) to base your box on. Basically what OS to use. There is a [publicly accessible list](https://atlas.hashicorp.com/boxes/search) to pick from, but if it helps I tend to use [ubuntu/trusty64](https://atlas.hashicorp.com/ubuntu/boxes/trusty64), and based on the download numbers so does everybody else.
+In here you'll find the bare bones for configuring and setting up your box, which by default will be a VirtualBox. The first decision you need to make is what [box](https://www.vagrantup.com/docs/boxes.html) (*the Vagrant kind!*) to base your box on. Basically what OS to use. There is a [publicly accessible list](https://vagrantcloud.com/boxes/search) to pick from, but if it helps I tend to use [ubuntu/trusty64](https://app.vagrantup.com/ubuntu/boxes/trusty64), and based on the download numbers so does everybody else.
 
 I'm not going to get into the details, I encourage you to check out the [documentation](https://www.vagrantup.com/docs/index.html). But in essence the `Vagrantfile` is divided into two sections; configuration, and provisioning i.e. how to install your dependency.
 
